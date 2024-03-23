@@ -1,0 +1,6 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./programs/solana-coin-flip/Cargo.toml",
+        "./Cargo.toml",
+    ]
+}
