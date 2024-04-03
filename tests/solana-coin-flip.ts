@@ -93,7 +93,7 @@ describe("solana-coin-flip", () => {
     console.log('create user account success');
 
     // This sometimes does not find the userAccount
-    // Probably related to network latency and account creation being confirmed
+    // Related to network latency and account creation being confirmed
     let userAccount = await (program.account.userAccount.fetch(userAccountPDA));
     console.log('userAccount.authority:', userAccount.authority.toBase58());
     console.log('userAccount.total_games_played:', userAccount.totalGamesPlayed);
